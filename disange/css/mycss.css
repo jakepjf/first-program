@@ -1,0 +1,28 @@
+.tdone{
+        width:10%;
+        }
+    .tdtwo{
+         width:20%;
+    }
+    .tdthree{      
+         width:20%;
+     }
+     .tdfour{        
+         width:20%;
+              }
+     .tdfive{
+        width:20%;
+    }
+     .tdsix{     
+         width:10%;
+     }
+     .headtable{
+     	width: 100%;
+     }
+     .cat{
+    background: white;
+    color: #fff;
+    position:relative;
+    right: -860px;
+    top:0px;
+}

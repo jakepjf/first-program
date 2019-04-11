@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>bus</title>
+		<script src="js/gg.js"></script>
+		<link rel="stylesheet" href="css/mycss.css" />
+	</head>
+	<body class="main">
+		<div id="divhead">
+			<table cellspacing="0" class="headtable">
+				<tr>
+					<td>
+						<a href="#">
+							<img src="img/dd_logo.jpg" width="200" height="60" border="0" />
+						</a>
+					</td>
+					<td style="text-align: center;" class="cat">
+						<a href="#">关闭</a>
+					</td>
+				</tr>
+             <tr style="text-align: center;" class="twotble">
+             	<td class="tdone"><input type="checkbox" value="全选" onclick="quanxuan(this)"/> 全选
+               </td>
+                 <td class="tdone">序号</td>
+                 <td class="tdtwo">商品名称</td>
+                 <td class="tdthree">数量</td>
+                 <td class="tdfour">单价</th>
+                 <td class="tdfive">小计</th>
+                 <td class="tdsix">操作</th>
+             </tr>
+             <tr style="text-align: center;" class="trclss"id="one">
+             	<td class="tdone"><input type="checkbox"  class="qx" /> 
+                </td>
+             	<td style="text-align: center;"><img src="img/yf.jpg.jpg" width="100"height="150"border="1"</td>
+             	<td class="tdtwo ">牛仔衣</td>
+             	<td class="tdthree"><span ><input type="button" onclick="checkJian();" value="-"><span id="num">0</span><input type="button" onclick="checkJia();" value="+"></span></td>
+             	<td class="tdfour"><span>单价：￥</span><span id="unit">300</span></td>
+             	<td class="tdfive"><span>小计：￥</span><span id="subtal">0</span></td>
+                <td class="tdsix"><button onclick="del();">删除</button></td>
+             </tr>
+              <tr style="text-align: center;"class="trclss" id="two">
+              	<td class="tdone"><input type="checkbox"  class="qx" /> 
+                </td>
+             	<td style="text-align: center;"><img src="img/sj.jpg.jpg" width="100"height="150"border="1"</td>
+             	<td class="tdtwo ">华为p20</td>
+             	<td class="tdthree"><span ><input type="button" onclick="checkJian1();" value="-"><span id="num1">0</span><input type="button" onclick="checkJia1();" value="+"></span></td>
+             	<td class="tdfour"><span>单价：￥</span><span id="unit1">5288</span></td>
+             	<td class="tdfive"><span>小计：￥</span><span id="subtal1">0</span></td>
+                <td class="tdsix"><button onclick="del1();">删除</button></td>
+             </tr>
+             <tr><td   colspan="6"align="center"valign="middle";><span>商品一共 <span id="goods_num">0</span> 件; 共计花费 ￥<span id="pricetal">0</span> 元; <!--其中最贵的商品单价是 <span class="pricest">0</span> 元--></span></td></tr>
+			</table>
+		</div>
+	</body>
+</html>
